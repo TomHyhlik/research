@@ -3,9 +3,9 @@ Instructions for agents to do research in this repo and its workflow.
 
 ## Tools
 Tools to be used in this workflow.
-* To convert a file .md to .pdf use the tool at "../text2podcast"
-* To convert a file .md to .mp3 use the tool at "../text2podcast"
-* To send a file use the tool at "../sender-tool"
+* To convert a file .md to .pdf use the tool at "../text2podcast" ([text2podcast](https://github.com/TomHyhlik/text2podcast))
+* To convert a file .md to .mp3 use the tool at "../text2podcast" ([text2podcast](https://github.com/TomHyhlik/text2podcast))
+* To send a file use the tool at "../sender-tool" ([sender-tool](https://github.com/TomHyhlik/sender-tool))
 
 ## Research rules
 * If you cite a number of a scale, provide also its percentage as the constext of the full scale. For example a (number) of jobs opened in a country, which is a (number) % of the total scale.
