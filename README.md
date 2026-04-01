@@ -16,7 +16,7 @@ Tools to be used in this workflow.
 * When asked to research a topic do the following steps from 1 till the last.
 
 1. Research the topic in depth on the internet.
-2. For every research, create a new directory with the research name
+2. For every research, create a new directory inside projects/ with the research name.
 3. Inside the research directory create a research_name.md and put the research in it.
 4. Create research_name_podcast.md from the research_name.md, which is basically the same, but charts, tables and so are read so it is understandable to somebody who just listens to it and doen'st see it.
 5. Convert the research_name.md to research_name.pdf
