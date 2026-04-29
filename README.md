@@ -71,9 +71,10 @@ Pass the user's full original prompt as the second argument so it is saved to `i
 
 
 ## Project Structure
-* For every new research project, derive the research name from the given topic,
-* Create a new directory inside `projects/` using the format `NNN-research-name`, where `NNN` is the next incrementing three-digit number, 
-* The research project files are created inside the project directory as follows:
+* For every new research project, derive a short research name from the given topic.
+* Create a new directory inside `projects/` using the format `NNN-research-name`, where `NNN` is the next incrementing three-digit number.
+* Use `research_name` in file names as the underscore version of the research name.
+* Create the research project files inside the project directory as follows:
 
 | File | Purpose |
 | --- | --- |
@@ -90,7 +91,7 @@ When asked to research a topic, follow the rules and project structure using the
 1. Create the <strong>Project Directory</strong> and <strong>Original prompt</strong>.
 2. Research the topic in depth on the web.
 3. Write the <strong>Main research paper</strong>.
-4. Create the <strong>Podcast version</strong>.
+4. Create the <strong>Podcast version</strong> from the <strong>Main research paper</strong>.
 5. Create the <strong>PDF version</strong>.
-6. Create the <strong>Podcast audio</strong>.
+6. Create the <strong>Podcast audio</strong> from the <strong>Podcast version</strong>.
 7. Send the <strong>PDF version</strong> and <strong>Podcast audio</strong>.
