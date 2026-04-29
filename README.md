@@ -13,7 +13,7 @@ Tools to be used in this workflow.
   * Optional flags: `--voice <voice-name>`, `--offline`, `-o <output.mp3>`
 * To send a file use the tool at "../sender-tool" ([sender-tool](https://github.com/TomHyhlik/sender-tool))
 
-## Research rules
+## Rules
 * If you cite a number of a scale, provide also its percentage as the constext of the full scale. For example a (number) of jobs opened in a country, which is a (number) % of the total scale.
 * The research file shall start with a short section "About" describint what is it about and anfter that is a short section "Summary" describing the results found.
 * Never do any git tasks unless you are explicitly instructed to do so.
