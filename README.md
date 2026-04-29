@@ -36,7 +36,15 @@ Tools to be used in this workflow.
 
 
 ## Structure
-* The research file shall start with a short section `About` describing what the report covers, followed by a short section `Summary` describing the main findings.
+* For every project task, derive the research name from the given topic, create a new directory inside `projects/` using the format `NNN-research-name`, where `NNN` is the next incrementing three-digit number, and create the files specified in the table inside the project directory.
+
+| File | Purpose |
+| --- | --- |
+| `input-prompt.md` | Preserves the original user prompt exactly and is never added to the research paper |
+| `research_name.md` | <strong>Main research paper</strong><ul><li>Starts with the research name, expanded into a broader research-focused title.</li><li>First section is `About`, describing what the paper covers.</li><li>Second section is `Summary`, describing the main findings.</li><li>Continues with the actual research, including evidence, sources, analysis, charts, and tables where useful.</li></ul> |
+| `research_name_podcast.md` | Same content as the main research paper, adapted for listening. Tables, charts, and other visual material are explained in words for someone who cannot see them, and the sources section at the end is not included. |
+| `research_name.pdf` | Main research paper converted from `research_name.md` into PDF. |
+| `research_name.mp3` | Podcast audio generated from `research_name_podcast.md`. |
 
 
 ## Workflow
