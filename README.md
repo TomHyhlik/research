@@ -71,7 +71,9 @@ Pass the user's full original prompt as the second argument so it is saved to `i
 
 
 ## Project Structure
-* For every project task, derive the research name from the given topic, create a new directory inside `projects/` using the format `NNN-research-name`, where `NNN` is the next incrementing three-digit number, and create the files specified in the table below inside the project directory.
+* For every new research project, derive the research name from the given topic,
+* Create a new directory inside `projects/` using the format `NNN-research-name`, where `NNN` is the next incrementing three-digit number, 
+* The research project files are created inside the project directory as follows:
 
 | File | Purpose |
 | --- | --- |
