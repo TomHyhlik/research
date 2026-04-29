@@ -76,13 +76,13 @@ Pass the user's full original prompt as the second argument so it is saved to `i
 * Use `research_name` in file names as the underscore version of the research name.
 * Create the research project files inside the project directory as follows:
 
-| File | Purpose |
-| --- | --- |
-| `input-prompt.md` | <strong>Original prompt</strong><ul><li>Preserves the exact user prompt in the original format.</li></ul> |
-| `research_name.md` | <strong>Main research paper</strong><ul><li>Starts with the research name, expanded into a broader research-focused title.</li><li>First section is `About`, describing what the project covers.</li><li>Second section is `Summary`, describing the main findings.</li><li>Continues with the actual research, including evidence, sources, analysis, charts, and tables where useful.</li></ul> |
-| `research_name_podcast.md` | <strong>Podcast version</strong><ul><li>Uses the same content as the main research paper, adapted for listening.</li><li>Explains tables, charts, and other visual material in words for someone who cannot see them.</li><li>Does not include the sources section at the end.</li></ul> |
-| `research_name.pdf` | <strong>PDF version</strong><ul><li>Converts the main research paper from `research_name.md` into PDF.</li></ul> |
-| `research_name.mp3` | <strong>Podcast audio</strong><ul><li>Generates the audio file from `research_name_podcast.md`.</li></ul> |
+| File | Purpose | Description |
+| --- | --- | --- |
+| `input-prompt.md` | Original prompt | Preserves the exact user prompt in the original format. |
+| `research_name.md` | Main research paper | Starts with the research name, expanded into a broader research-focused title.<br>First section is `About`, describing what the project covers.<br>Second section is `Summary`, describing the main findings.<br>Continues with the actual research, including evidence, sources, analysis, charts, and tables where useful. |
+| `research_name_podcast.md` | Main paper - podcast version | Uses the same content as the main research paper, adapted for listening.<br>Explains tables, charts, and other visual material in words for someone who cannot see them.<br>Does not include the sources section at the end. |
+| `research_name.pdf` | Main paper - PDF version | Converts the main research paper from `research_name.md` into PDF. |
+| `research_name.mp3` | Podcast audio | Generates the audio file from `research_name_podcast.md`. |
 
 
 ## Workflow
