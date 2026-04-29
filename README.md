@@ -1,5 +1,5 @@
-# Research Workflow
-Instructions for agents to do research in this repo and its workflow.
+# Research
+Instructions for agents to do research in this repo.
 
 ## Tools
 Tools to be used in this workflow.
@@ -13,14 +13,34 @@ Tools to be used in this workflow.
   * Optional flags: `--voice <voice-name>`, `--offline`, `-o <output.mp3>`
 * To send a file use the tool at "../sender-tool" ([sender-tool](https://github.com/TomHyhlik/sender-tool))
 
-## Rules
-* If you cite a number of a scale, provide also its percentage as the constext of the full scale. For example a (number) of jobs opened in a country, which is a (number) % of the total scale.
-* The research file shall start with a short section "About" describint what is it about and anfter that is a short section "Summary" describing the results found.
-* Never do any git tasks unless you are explicitly instructed to do so.
-* Focus on the data and plot charts if possible.
 
-## Making a Research
-* When asked to research a topic do the following steps from 1 till the last.
+## Rules
+* Treat every research task as an evidence review, not an opinion essay. Separate measured facts, source claims, expert interpretation, and your own inference.
+* State the research question, scope, geography, time period, and important exclusions early in the report when they are not obvious from the prompt.
+* Prefer primary and high-quality sources: official statistics, peer-reviewed papers, regulator reports, company filings, court records, reputable datasets, and named expert institutions. Use news articles mainly for recent events, quotes, timelines, or when primary data is unavailable.
+* For fast-changing topics, verify recency. Include publication dates or data periods for important sources, and do not present old data as current.
+* Cite sources inline with links for all non-obvious factual claims, statistics, rankings, legal claims, medical claims, financial claims, and controversial statements.
+* If sources disagree, report the disagreement. Explain the likely reason: different definitions, data periods, samples, geographies, incentives, or methodology.
+* If you cite a number that is part of a larger scale, provide the denominator and percentage where possible. Example: `12,000 jobs, equal to 8.4% of the 143,000-job national total`.
+* Always define units, currencies, dates, baselines, and whether numbers are nominal, real, seasonally adjusted, annualized, per capita, or index values.
+* Include uncertainty. State confidence levels qualitatively when useful, list assumptions, and identify the most important missing data.
+* Compare like with like. When comparing countries, cities, time periods, or groups, normalize where appropriate by population, GDP, households, land area, age group, or other relevant denominator.
+* Use tables for structured comparisons and charts for important quantitative patterns. If a chart is not possible, include a readable text chart or a clearly labeled table.
+* For forecasts and scenarios, provide at least a base case and a stress case, with triggers that would make each case more likely.
+* For medical, legal, financial, safety, or public-policy topics, add an explicit limitations note and avoid giving personalized professional advice unless the user asked for general educational analysis only.
+* Keep claims proportional to the evidence. Use precise language such as `suggests`, `is consistent with`, `is associated with`, or `is likely` when certainty is limited.
+* Preserve enough methodological detail that another researcher could audit the work: key search terms, dataset names, date ranges, and calculations should be visible in the report or source notes when relevant.
+* Never do any git tasks unless explicitly instructed to do so.
+* Preserve `input-prompt.md` as the original user prompt without rewriting it.
+
+
+
+## Structure
+* The research file shall start with a short section `About` describing what the report covers, followed by a short section `Summary` describing the main findings.
+
+
+## Workflow
+When asked to research a topic do the following steps :
 
 1. Research the topic in depth on the internet.
 2. For every research, create a new directory inside projects/ with the research name, prefixed by an incrementing three-digit number (e.g. 009-research-name). Determine the next number by listing the existing directories and incrementing the highest prefix by one. Save the original input prompt to `input-prompt.md` inside the new directory. **`input-prompt.md` is never converted to PDF — it stays as a plain .md file only.**
