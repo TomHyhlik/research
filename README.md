@@ -82,7 +82,7 @@ Pass the user's full original prompt as the second argument so it is saved to `i
 | --- | --- | --- |
 | `input-prompt.md` | Original prompt | Preserves the exact user prompt in the original format. |
 | `research_name.md` | Main research paper | Starts with the research name, expanded into a broader research-focused title.<br>First section is `About`, describing what the project covers.<br>Second section is `Summary`, describing the main findings.<br>Continues with the actual research, including evidence, sources, analysis, charts, and tables where useful. |
-| `research_name_podcast.md` | Main paper - podcast version | Uses the same content as the main research paper, adapted for listening.<br>Explains tables, charts, and other visual material in words for someone who cannot see them.<br>Does not include any extra note that it is a listening version.<br>Does not include the sources section at the end. |
+| `research_name_podcast.md` | Main paper - podcast version | Uses practically the same content as the main research paper, with only slight modifications needed for listening.<br>Explains tables, charts, and other visual material in words for someone who cannot see them, while otherwise preserving the structure, claims, and level of detail of the main paper.<br>Does not include any extra note that it is a listening version.<br>Does not include the sources section at the end. |
 | `research_name.pdf` | Main paper - PDF version | Converts the main research paper from `research_name.md` into PDF. |
 | `research_name.mp3` | Podcast audio | Generates the audio file from `research_name_podcast.md`. |
 
