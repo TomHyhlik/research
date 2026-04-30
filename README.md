@@ -50,6 +50,9 @@ scripts/new-project.sh <name> "<full original user prompt>"
 ```
 Pass the user's full original prompt as the second argument so it is saved to `input-prompt.md` inside the new project directory.
 
+## Repository Rules
+* Never do any git tasks unless explicitly instructed to do so.
+* Do not ask for permission while completing workflow tasks. Or editing files in this repo.
 
 ## Research Rules
 * Treat every research task as an evidence review, not an opinion essay. Separate measured facts, source claims, expert interpretation, and your own inference.
@@ -67,7 +70,6 @@ Pass the user's full original prompt as the second argument so it is saved to `i
 * For medical, legal, financial, safety, or public-policy topics, add an explicit limitations note and avoid giving personalized professional advice unless the user asked for general educational analysis only.
 * Keep claims proportional to the evidence. Use precise language such as `suggests`, `is consistent with`, `is associated with`, or `is likely` when certainty is limited.
 * Preserve enough methodological detail that another researcher could audit the work: key search terms, dataset names, date ranges, and calculations should be visible in the report or source notes when relevant.
-* Never do any git tasks unless explicitly instructed to do so.
 
 
 ## Project Structure
