@@ -52,7 +52,7 @@ Pass the user's full original prompt as the second argument so it is saved to `i
 
 ## Repository Rules
 * Never do any git tasks unless explicitly instructed to do so.
-* Do not ask for permission while completing workflow tasks. Or editing files in this repo.
+* When working in this repo, proceed without asking for permission to complete normal workflow tasks or file edits. Only stop to ask if required credentials are unavailable, the requested action is destructive, or the action falls outside the user's request.
 
 ## Research Rules
 * Treat every research task as an evidence review, not an opinion essay. Separate measured facts, source claims, expert interpretation, and your own inference.
